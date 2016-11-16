@@ -1,0 +1,29 @@
+{
+  "name": "open-webvr-u",
+  "version": "0.0.0",
+  "description": "Max's OPEN-WEBVR-U Projeect",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node_modules/.bin/nodemon app.js"
+  },
+  "author": "mt8168@gmail.com",
+  "private": "true",
+  "license": "BSD-3-Clause-Attribution",
+  "dependencies": {
+    "aframe": "^0.3.2",
+    "body-parser": "^1.15.2",
+    "bootstrap": "^3.3.7",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "fs": "0.0.1-security",
+    "kframe": "^0.3.0",
+    "mkdir": "0.0.2",
+    "multer": "^1.2.0",
+    "nodemon": "^1.11.0",
+    "pug": "^2.0.0-beta6",
+    "pug-bootstrap": "0.0.3",
+    "serve-favicon": "^2.3.0",
+    "sqlite3": "^3.1.6"
+  }
+}
